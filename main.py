@@ -1331,73 +1331,73 @@ def interface():
     else:
         print("black move")
 
-    user = input("enter the piece you want to move")
+    user = input("enter the piece you want to move as seen on the board: ")
     # user = "wpawn"
-    if user == "bpawn":
+    if user == "Bpawn":
         move_piece(bpawn)
-    if user == "bpawn1":
+    if user == "Bpawn1":
         move_piece(bpawn1)
-    if user == "bpawn2":
+    if user == "Bpawn2":
         move_piece(bpawn2)
-    if user == "bpawn3":
+    if user == "Bpawn3":
         move_piece(bpawn3)
-    if user == "bpawn4":
+    if user == "Bpawn4":
         move_piece(bpawn4)
-    if user == "bpawn5":
+    if user == "Bpawn5":
         move_piece(bpawn5)
-    if user == "bpawn6":
+    if user == "Bpawn6":
         move_piece(bpawn6)
-    if user == "bpawn7":
+    if user == "Bpawn7":
         move_piece(bpawn7)
-    if user == "bcastle":
+    if user == "Bcastle":
         move_piece(bcastle)
-    if user == "bcastle2":
+    if user == "Bcastle2":
         move_piece(bcastle2)
-    if user == "bknight":
+    if user == "Bknight":
         move_piece(bknight)
-    if user == "bknight2":
+    if user == "Bknight2":
         move_piece(bknight2)
-    if user == "bbishop":
+    if user == "Bbishop":
         move_piece(bbishop)
-    if user == "bbishop1":
+    if user == "Bbishop1":
         move_piece(bbishop1)
-    if user == "bking":
+    if user == "Bking":
         move_piece(bking)
-    if user == "bqueen":
+    if user == "Bqueen":
         move_piece(bqueen)
-    if user == "wpawn":
+    if user == "Bpawn":
         move_piece(wpawn)
-    if user == "wpawn1":
+    if user == "Wpawn1":
         move_piece(wpawn1)
-    if user == "wpawn2":
+    if user == "Wpawn2":
         move_piece(wpawn2)
-    if user == "wpawn3":
+    if user == "Wpawn3":
         move_piece(wpawn3)
-    if user == "wpawn4":
+    if user == "Wpawn4":
         move_piece(wpawn4)
-    if user == "wpawn5":
+    if user == "Wpawn5":
         move_piece(wpawn5)
-    if user == "wpawn6":
+    if user == "Wpawn6":
         move_piece(wpawn6)
-    if user == "wpawn7":
+    if user == "Wpawn7":
         move_piece(wpawn7)
-    if user == "wcastle":
+    if user == "Wcastle":
         move_piece(wcastle)
-    if user == "wcastle2":
+    if user == "Wcastle2":
         move_piece(wcastle2)
-    if user == "wknight":
+    if user == "Wknight":
         move_piece(wknight)
-    if user == "wknight2":
+    if user == "Wknight2":
         move_piece(wknight2)
-    if user == "wbishop":
+    if user == "Wbishop":
         move_piece(wbishop)
-    if user == "wbishop1":
+    if user == "Wbishop1":
         move_piece(wbishop1)
-    if user == "wking":
+    if user == "Wking":
         move_piece(wking)
-    if user == "wqueen":
+    if user == "Wqueen":
         move_piece(wqueenn)
-    if user == "show":
+    if user == "sWhow":
         print(white)
         print(black)
     if user == "taken":
